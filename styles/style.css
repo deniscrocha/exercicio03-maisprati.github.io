@@ -1,0 +1,99 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+header{
+  background: #901f3b;
+  width: 100%;
+  height: 100px;
+  float: left;
+}
+header > h1{  
+  background: #901f3b;
+  float: left;
+  color: white;
+  padding: 25px 0;
+  margin-left: 45px;
+}
+header > ul{
+  list-style: none;
+  float: right;
+  padding: 40px 0;
+}
+header > ul > li{
+  float: left;
+  margin-right: 45px;
+}
+header > ul > li > a{
+  text-decoration: none;
+  color: white;
+}
+header > ul > li > a:hover{
+  color: red;
+}
+.actual-page{
+  color: red;
+}
+main{
+  background: #ff92c4;
+  width: 100%;
+  text-align: center;
+}
+.livro{
+  width: 350px;
+  height: 550px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background: #fbb7dd;
+}
+.desc{
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  height: 160px;
+  text-align: center;
+}
+.title{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: inline-block;
+  height: 50px;
+}
+.img{
+  border-radius: 10px;
+  height: 250px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.img img{
+  height: 100%;
+  width: 100%;
+}
+.livro > ul {
+  margin-top: 3px;
+  list-style: none;
+}
+.livro > ul > li > a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  border: 1px solid black;
+  background: white;
+  border-radius: 5px;
+  width: 100px;
+  height: 25px;
+  text-align: center;
+}
+footer{
+  background: #901f3b;
+  display: block;
+  width: 100%;
+  text-align: center;
+}
